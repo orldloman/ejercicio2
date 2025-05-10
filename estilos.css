@@ -1,0 +1,71 @@
+﻿/* estilos.css */
+
+/* Fondo general */
+body {
+    background-image: url("images/art-background4.jpg"); /* usa tu imagen */
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Cabecera */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* fondo negro semitransparente */
+    color: white;
+    text-align: center;
+    padding: 2em;
+    font-family: 'Six Caps', Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+header h2 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/* Article */
+article {
+    background-color: rgba(255, 255, 255, 0.8); /* fondo blanco semitransparente */
+    width: 60%;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+article h2 {
+    font-family: 'Six Caps', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+article p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+/* Footer dentro de article */
+article footer {
+    background-color: rgba(0, 0, 0, 0.7); /* fondo negro semitransparente */
+    color: white;
+    padding: 1em;
+    margin-top: 2em;
+    font-size: 0.9em;
+}
+
+article footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article footer img {
+    vertical-align: middle;
+    margin: 0 0.2em;
+}
